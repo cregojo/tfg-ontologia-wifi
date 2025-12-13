@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/wifi-ontology#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/wifi-ontology#">
+    <Prefix name="" IRI="http://www.semanticweb.org/crist/ontologies/2025/11/untitled-ontology-6/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Cobertura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="HorarioDisponibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ProveedorServicio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PuntoWifi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ZonaUrbana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ofrecidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="seUbicaEnZona"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneCobertura"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="estadoPunto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="horaFin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="horaInicio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="nivelCobertura"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="nombreProveedor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="nombrePunto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="nombreZona"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneLatitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneLongitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneSSID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="urlProveedor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="velocidadMedia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cobertura_Alta100Mbps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cobertura_Baja40Mbps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cobertura_Media70Mbps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="horario_12h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="horario_24h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="horario_8h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="zona_CentroValencia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Cobertura"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="nivelCobertura"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cobertura"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="velocidadMedia"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HorarioDisponibilidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="tieneHorario"/>
+            <Class IRI="HorarioDisponibilidad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HorarioDisponibilidad"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="horaFin"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="HorarioDisponibilidad"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="horaInicio"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProveedorServicio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="ofrecidoPor"/>
+            <Class IRI="ProveedorServicio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ProveedorServicio"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="nombreProveedor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PuntoWifi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="ofrecidoPor"/>
+            <Class IRI="ProveedorServicio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PuntoWifi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="seUbicaEnZona"/>
+            <Class IRI="ZonaUrbana"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PuntoWifi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="tieneCobertura"/>
+            <Class IRI="Cobertura"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PuntoWifi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="tieneHorario"/>
+            <Class IRI="HorarioDisponibilidad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ZonaUrbana"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="seUbicaEnZona"/>
+            <Class IRI="ZonaUrbana"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="Cobertura"/>
+        <NamedIndividual IRI="cobertura_Alta100Mbps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Cobertura"/>
+        <NamedIndividual IRI="cobertura_Baja40Mbps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Cobertura"/>
+        <NamedIndividual IRI="cobertura_Media70Mbps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="HorarioDisponibilidad"/>
+        <NamedIndividual IRI="horario_12h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="HorarioDisponibilidad"/>
+        <NamedIndividual IRI="horario_24h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="HorarioDisponibilidad"/>
+        <NamedIndividual IRI="horario_8h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ProveedorServicio"/>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PuntoWifi"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PuntoWifi"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ZonaUrbana"/>
+        <NamedIndividual IRI="zona_CentroValencia"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="ofrecidoPor"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="seUbicaEnZona"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <NamedIndividual IRI="zona_CentroValencia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="tieneCobertura"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <NamedIndividual IRI="cobertura_Alta100Mbps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="tieneHorario"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <NamedIndividual IRI="horario_24h"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="ofrecidoPor"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="seUbicaEnZona"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+        <NamedIndividual IRI="zona_CentroValencia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="tieneCobertura"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+        <NamedIndividual IRI="cobertura_Baja40Mbps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="tieneHorario"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+        <NamedIndividual IRI="horario_24h"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nivelCobertura"/>
+        <NamedIndividual IRI="cobertura_Alta100Mbps"/>
+        <Literal>alta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="velocidadMedia"/>
+        <NamedIndividual IRI="cobertura_Alta100Mbps"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nivelCobertura"/>
+        <NamedIndividual IRI="cobertura_Baja40Mbps"/>
+        <Literal>Baja</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="velocidadMedia"/>
+        <NamedIndividual IRI="cobertura_Baja40Mbps"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nivelCobertura"/>
+        <NamedIndividual IRI="cobertura_Media70Mbps"/>
+        <Literal>Media</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="velocidadMedia"/>
+        <NamedIndividual IRI="cobertura_Media70Mbps"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="horaFin"/>
+        <NamedIndividual IRI="horario_24h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-31T23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="horaInicio"/>
+        <NamedIndividual IRI="horario_24h"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nombreProveedor"/>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+        <Literal>Ajuntament de València</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="urlProveedor"/>
+        <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
+        <Literal>https://www.valencia.es</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="estadoPunto"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <Literal>Activo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nombrePunto"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <Literal>Wifi Plaza del Ayuntamiento</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="tieneLatitud"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">39.4699</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="tieneLongitud"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">-0.3763</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="tieneSSID"/>
+        <NamedIndividual IRI="wifi_Centro_001"/>
+        <Literal>Valencia_WIFI_Publico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="estadoPunto"/>
+        <NamedIndividual IRI="wifi_Centro_002"/>
+        <Literal>Activo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="nombreZona"/>
+        <NamedIndividual IRI="zona_CentroValencia"/>
+        <Literal>Centro de València</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="ofrecidoPor"/>
+        <Class IRI="PuntoWifi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="seUbicaEnZona"/>
+        <Class IRI="PuntoWifi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneCobertura"/>
+        <Class IRI="PuntoWifi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneHorario"/>
+        <Class IRI="PuntoWifi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="ofrecidoPor"/>
+        <Class IRI="ProveedorServicio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="seUbicaEnZona"/>
+        <Class IRI="ZonaUrbana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneCobertura"/>
+        <Class IRI="Cobertura"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneHorario"/>
+        <Class IRI="HorarioDisponibilidad"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="nombreZona"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="estadoPunto"/>
+        <Class IRI="PuntoWifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="horaFin"/>
+        <Class IRI="HorarioDisponibilidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="horaInicio"/>
+        <Class IRI="HorarioDisponibilidad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="nivelCobertura"/>
+        <Class IRI="Cobertura"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="nombreProveedor"/>
+        <Class IRI="ProveedorServicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="nombrePunto"/>
+        <Class IRI="PuntoWifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneLatitud"/>
+        <Class IRI="PuntoWifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneLongitud"/>
+        <Class IRI="PuntoWifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneSSID"/>
+        <Class IRI="PuntoWifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="urlProveedor"/>
+        <Class IRI="ProveedorServicio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="velocidadMedia"/>
+        <Class IRI="Cobertura"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="estadoPunto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="horaFin"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="horaInicio"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="nivelCobertura"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="nombreProveedor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="nombrePunto"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneLatitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneLongitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneSSID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="urlProveedor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="velocidadMedia"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
