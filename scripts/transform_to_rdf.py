@@ -8,7 +8,7 @@ INPUT_FILE = Path("../data/raw/wifi_valencia.geojson")
 OUTPUT_FILE = Path("../data/rdf/wifi_valencia.ttl")
 
 # Namespace de tu ontología
-WIFI = Namespace("http://www.semanticweb.org/cregojo/ontologia-wifi#")
+WIFI = Namespace("https://w3id.org/wifi-ontology#")
 
 def main():
     graph = Graph()
