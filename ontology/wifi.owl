@@ -12,6 +12,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>file:/C:/Users/crist/Desktop/Cristina_Toshiba/1.UOC/1.TFG/PEC2_16.11/TFG_Wifi/tfg-ontologia-wifi/data/rdf/wifi_valencia.ttl</Import>
     <Declaration>
         <Class IRI="Cobertura"/>
     </Declaration>
@@ -20,9 +21,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="ProveedorServicio"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="PuntoWifi"/>
     </Declaration>
     <Declaration>
         <Class IRI="ZonaUrbana"/>
@@ -68,6 +66,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="tieneSSID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tipoPunto"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="urlProveedor"/>
@@ -155,34 +156,6 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="PuntoWifi"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="ofrecidoPor"/>
-            <Class IRI="ProveedorServicio"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="PuntoWifi"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="seUbicaEnZona"/>
-            <Class IRI="ZonaUrbana"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="PuntoWifi"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="tieneCobertura"/>
-            <Class IRI="Cobertura"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="PuntoWifi"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="tieneHorario"/>
-            <Class IRI="HorarioDisponibilidad"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="ZonaUrbana"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="seUbicaEnZona"/>
@@ -216,14 +189,6 @@
     <ClassAssertion>
         <Class IRI="ProveedorServicio"/>
         <NamedIndividual IRI="proveedor_AyuntamientoValencia"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="PuntoWifi"/>
-        <NamedIndividual IRI="wifi_Centro_001"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="PuntoWifi"/>
-        <NamedIndividual IRI="wifi_Centro_002"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="ZonaUrbana"/>
@@ -354,22 +319,6 @@
         <NamedIndividual IRI="zona_CentroValencia"/>
         <Literal>Centro de València</Literal>
     </DataPropertyAssertion>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="ofrecidoPor"/>
-        <Class IRI="PuntoWifi"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="seUbicaEnZona"/>
-        <Class IRI="PuntoWifi"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="tieneCobertura"/>
-        <Class IRI="PuntoWifi"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="tieneHorario"/>
-        <Class IRI="PuntoWifi"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="ofrecidoPor"/>
         <Class IRI="ProveedorServicio"/>
@@ -391,10 +340,6 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty IRI="estadoPunto"/>
-        <Class IRI="PuntoWifi"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="horaFin"/>
         <Class IRI="HorarioDisponibilidad"/>
     </DataPropertyDomain>
@@ -409,22 +354,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="nombreProveedor"/>
         <Class IRI="ProveedorServicio"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="nombrePunto"/>
-        <Class IRI="PuntoWifi"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="tieneLatitud"/>
-        <Class IRI="PuntoWifi"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="tieneLongitud"/>
-        <Class IRI="PuntoWifi"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="tieneSSID"/>
-        <Class IRI="PuntoWifi"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="urlProveedor"/>
@@ -469,6 +398,10 @@
     <DataPropertyRange>
         <DataProperty IRI="tieneSSID"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tipoPunto"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="urlProveedor"/>
