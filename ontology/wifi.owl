@@ -15,6 +15,9 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.w3.org/2003/01/geo/wgs84_pos</Import>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="CaracteristicaServicio"/>
     </Declaration>
     <Declaration>
@@ -33,7 +36,7 @@
         <Class IRI="ProveedorServicio"/>
     </Declaration>
     <Declaration>
-        <Class IRI="PuntoWifi"/>
+        <Class IRI="PuntoWifiActivo"/>
     </Declaration>
     <Declaration>
         <Class IRI="ZonaUrbana"/>
@@ -49,6 +52,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="tieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="geo:lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="geo:long"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="estadoPunto"/>
@@ -90,10 +99,898 @@
         <DataProperty IRI="velocidadMedia"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="geo:lat"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31030"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="geo:long"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31032"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31033"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31034"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31035"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31036"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31037"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31038"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31039"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31040"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31041"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31042"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31044"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31045"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31046"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31048"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31049"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31050"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31053"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31054"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31055"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31056"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31057"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31058"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31059"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31060"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31061"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31062"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31063"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31064"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31065"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31066"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31067"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31068"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31069"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31071"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31072"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31073"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31074"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31075"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31076"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31077"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31078"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31079"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31080"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31081"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31082"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31085"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31086"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31087"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31088"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31089"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31090"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31091"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31094"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31109"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31110"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31112"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31114"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31115"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31116"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31117"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31119"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31121"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31122"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31124"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31125"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31126"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31127"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31128"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31131"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31133"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31135"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31136"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31137"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31140"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31141"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31143"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31144"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31148"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31152"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31153"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31154"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31155"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31156"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31157"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31159"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31160"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31161"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31162"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31163"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31164"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31166"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31167"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31169"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31170"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31171"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31172"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31175"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31176"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31177"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31178"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31179"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31180"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31181"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31182"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31183"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31184"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31185"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31186"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31187"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31188"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31189"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31190"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31193"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31194"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31195"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31197"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31198"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31199"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31201"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31206"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31207"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31208"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31209"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31211"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31212"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31214"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31215"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31216"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31217"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31218"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31219"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31220"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31222"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31223"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31225"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31227"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31228"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31229"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31230"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31232"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31233"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31234"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31235"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31236"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31352"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31369"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31382"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31383"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31384"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31385"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31386"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31387"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31398"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31399"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31400"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31401"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31402"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31403"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31405"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31670"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31671"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31687"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31990"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31991"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32311"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32312"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32326"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32630"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32631"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32632"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32950"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32951"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32966"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32967"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32968"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32969"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32970"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32971"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32972"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32973"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32982"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32983"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32985"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32986"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33007"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33008"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33009"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33011"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33012"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33013"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33014"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33015"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33017"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33018"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33019"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33020"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33021"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33022"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33023"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33025"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33026"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33318"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33319"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33320"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33321"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33638"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34278"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34279"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34281"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34282"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34283"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34284"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34285"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34294"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34598"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34599"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34600"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34601"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34602"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34603"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34604"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34605"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34606"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34607"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34608"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34609"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34610"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34611"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34612"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34613"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34614"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34615"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34616"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34617"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34618"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34619"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34620"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34621"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34622"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34623"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34624"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34625"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34628"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34629"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34630"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34631"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34632"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34633"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34634"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34635"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34636"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34637"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34638"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34639"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34640"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34641"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34642"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34643"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34644"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34645"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34646"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34647"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34648"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="cobertura_Alta100Mbps"/>
@@ -126,917 +1023,34 @@
         <NamedIndividual IRI="zona_CentroValencia"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31090"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31405"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31402"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31403"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31400"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32973"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31401"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32971"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32972"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33026"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34599"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31088"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33025"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34598"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31089"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32970"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33024"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31086"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33023"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31087"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33022"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31085"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33020"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31082"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31080"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#estadoPunto"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31081"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32986"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32984"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32985"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32982"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32983"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31094"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31091"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33009"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33008"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32951"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33007"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31068"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31189"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33005"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31069"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32950"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33004"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31066"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31187"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33003"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31067"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31188"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33002"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31064"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31185"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33001"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31065"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31186"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33000"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31062"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31183"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31063"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31184"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31060"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31181"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31061"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31182"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31180"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32968"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32969"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32966"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32967"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33019"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33018"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33017"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31079"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33016"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33015"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31077"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31198"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31990"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33014"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31078"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31199"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31991"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33013"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31075"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33012"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31076"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31197"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33011"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31073"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31194"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31074"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31195"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31071"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31072"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31193"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31190"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31048"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31169"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31049"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31046"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31167"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31044"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31045"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31166"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31042"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31163"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31164"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31040"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31161"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31041"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31162"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31160"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31059"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31057"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31178"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31058"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31179"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31055"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31176"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31056"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31177"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31053"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31054"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31175"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31172"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31170"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31050"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31171"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31147"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31148"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31387"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31146"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31143"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31385"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31144"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31386"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33321"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31141"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31383"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33320"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31384"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31140"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31382"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31039"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31037"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31038"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31159"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31035"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31156"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31398"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31036"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31157"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31399"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31033"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31154"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31034"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31155"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31152"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31032"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31153"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31150"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31030"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34639"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34638"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31127"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31369"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34637"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31128"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34636"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31125"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34635"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31126"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34634"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31123"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34633"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31124"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34632"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31121"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34631"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31122"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34630"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31120"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33319"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33318"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31138"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34648"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31139"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34647"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31136"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34646"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31137"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34645"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34644"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31135"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34643"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34642"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31133"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34641"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31130"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34640"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31131"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31109"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34619"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34618"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31107"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31228"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34617"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31108"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31229"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34616"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34615"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31106"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31227"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34614"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31103"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34613"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31225"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34612"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31101"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31222"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32311"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34611"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31223"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32312"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34610"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31220"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31100"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32310"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34294"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#tieneLatitud"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34629"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31118"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34628"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31119"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31116"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32326"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31117"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34625"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31114"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31235"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34624"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31115"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31236"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34623"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31112"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31233"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34622"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31113"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31234"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34621"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31110"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31352"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34620"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#nombrePunto"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31111"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31232"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31230"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31351"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34280"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31208"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31209"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31206"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31207"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31204"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31205"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31202"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31203"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31687"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31201"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34279"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34278"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34609"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31219"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34608"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#tipoPunto"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34607"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31217"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_33638"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34606"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31218"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34605"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31215"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34604"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31216"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34603"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34602"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31214"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34601"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31211"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34600"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31212"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34285"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34284"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34283"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#tieneLatitud"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#tieneLongitud"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34282"/>
+        <AnnotationProperty IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#tipoPunto"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_34281"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32632"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32630"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_32631"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31671"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31670"/>
-    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="PuntoWifiActivo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi"/>
+            <DataHasValue>
+                <DataProperty IRI="estadoPunto"/>
+                <Literal>activo</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi"/>
+        <Class IRI="Infraestructura"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="Cobertura"/>
         <Class IRI="CaracteristicaServicio"/>
@@ -1099,8 +1113,8 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="PuntoWifi"/>
-        <Class IRI="Infraestructura"/>
+        <Class IRI="PuntoWifiActivo"/>
+        <Class IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ZonaUrbana"/>
@@ -2378,6 +2392,11 @@
         <NamedIndividual IRI="horario_24h"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="estadoPunto"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/cregojo/ontologia-wifi#PuntoWifi_31030"/>
+        <Literal>activo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="nivelCobertura"/>
         <NamedIndividual IRI="cobertura_Alta100Mbps"/>
         <Literal>alta</Literal>
@@ -2479,6 +2498,14 @@
         <Class IRI="HorarioDisponibilidad"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
+        <DataProperty IRI="geo:lat"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="geo:long"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="nombreZona"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -2489,14 +2516,6 @@
     <SubDataPropertyOf>
         <DataProperty IRI="tieneLongitud"/>
         <DataProperty IRI="geo:long"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="geo:lat"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="geo:long"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="horaFin"/>
