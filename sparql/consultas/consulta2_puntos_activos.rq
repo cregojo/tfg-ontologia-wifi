@@ -1,0 +1,8 @@
+PREFIX wifi: <http://www.semanticweb.org/cregojo/ontologia-wifi#>
+
+SELECT (COUNT(?punto) AS ?puntosActivos)
+WHERE {
+  ?punto a wifi:PuntoWifi ;
+         wifi:estadoPunto ?estado .
+  FILTER (STR(?estado) = "activo" || STR(?estado) = "Activo")
+}

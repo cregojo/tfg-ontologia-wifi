@@ -1,0 +1,15 @@
+PREFIX wifi: <http://www.semanticweb.org/cregojo/ontologia-wifi#>
+
+SELECT ?nombre 
+       (COUNT(?punto) AS ?numPuntos)
+       (SAMPLE(?lat) AS ?latitudReferencia)
+       (SAMPLE(?lon) AS ?longitudReferencia)
+WHERE {
+  ?punto a wifi:PuntoWifi ;
+         wifi:nombrePunto ?nombre ;
+         wifi:tieneLatitud ?lat ;
+         wifi:tieneLongitud ?lon .
+}
+GROUP BY ?nombre
+ORDER BY DESC(?numPuntos)
+LIMIT 5

@@ -1,0 +1,9 @@
+PREFIX wifi: <http://www.semanticweb.org/cregojo/ontologia-wifi#>
+
+SELECT ?tipo (COUNT(?punto) AS ?numPuntos)
+WHERE {
+  ?punto a wifi:PuntoWifi ;
+         wifi:tipoPunto ?tipo .
+}
+GROUP BY ?tipo
+ORDER BY DESC(?numPuntos)
